@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     # Load Simples Bot Brain loading rules from a CSV
     brain = SimpleBrain(id='bot-1')
-    brain.load('rules/bot-rules-2.csv')
+    brain.load('rules/bot-rules-3.csv')
 
     # Kick start the Bot Runner process
     bot = DiscordBot(token=TOKEN, brain=brain, debug=True)
